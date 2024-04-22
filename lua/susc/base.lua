@@ -1,7 +1,6 @@
 vim.scriptencoding = 'utf-8'
 vim.opt.encoding = 'utf-8'
 vim.opt.fileencoding = 'utf-8'
-
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
@@ -18,7 +17,7 @@ vim.opt.number = true
 vim.opt.ruler = true
 vim.opt.shiftround = true
 vim.opt.shiftwidth = 2
-vim.opt.wrap = false
+vim.opt.wrap = true
 vim.opt.tabstop = 2
 vim.opt.scrolloff = 5
 vim.opt.relativenumber = true
@@ -27,3 +26,6 @@ vim.opt.ignorecase = true
 vim.opt.breakindent = true
 vim.opt.path:append { '**' }
 vim.opt.wildignore:append { '*/node_modules/*' }
+vim.opt.completeopt = { 'menuone', 'preview' }
+vim.opt.undofile = true
+vim.opt.sidescrolloff = 8
