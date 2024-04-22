@@ -10,10 +10,6 @@ packer.startup(function (use)
 	use 'vim-airline/vim-airline'
 	use 'vim-airline/vim-airline-themes'
 	use 'preservim/nerdtree'
-	use {
-		'svrana/neosolarized.nvim',
-		requires = { 'tjdevries/colorbuddy.nvim' }
-	}
 	use 'tpope/vim-commentary'
 	use 'mattn/emmet-vim'
 	use 'tpope/vim-surround'
